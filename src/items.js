@@ -23,5 +23,15 @@ export default `[
 		"name": "Coke",
 		"ingredients": ["Water", "Coke recipe"],
 		"calories": "50"
+	},
+	{
+		"name": "Popcorn",
+		"ingredients": ["Corn", "Salt"],
+		"calories": "80"
+	},
+	{
+		"name": "Cake",
+		"ingredients": ["Batter", "Cream", "Chocolate Sauce", "Cherry"],
+		"calories": "350"
 	}
 ]`
