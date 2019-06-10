@@ -1,0 +1,53 @@
+.container {
+	margin: 100px auto 0 auto;
+	width: 600px;
+}
+
+.container h1 {
+	margin: 10px auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+
+}
+
+.autocomplete_text {
+	width: 100%;
+	border: 1px solid grey;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.autocomplete_text input {
+	width: 100%;
+	border: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	padding: 10px 5px;
+	box-sizing: border-box;
+	outline: none;
+}
+
+.autocomplete_text input::placeholder {
+	color: #bababa;
+}
+
+.autocomplete_text ul {
+	list-style-type: none;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid grey;
+}
+
+.autocomplete_text ul::before {
+	content: "";
+}
+
+.autocomplete_text li {
+	padding: 10px 5px;
+	cursor: pointer;
+}
+
+.autocomplete_text li:hover {
+	background-color: #e2e2e2;
+}
