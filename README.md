@@ -1,68 +1,70 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# [Healthy Living, healthy eating]
 
-## Available Scripts
+![Healthy-Living](screenshots/main.jpg)
 
-In the project directory, you can run:
+> A front end app created using React to search and display details about food items.
 
-### `npm start`
+---
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Table of Contents
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+- [Description](#description)
+- [Installation](#installation)
+- [License](#license)
+- [Info](#info)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Description
 
-### `npm run build`
+This assignment is catered towards invoking healthy habits in this world where rising levels of junk food, fast food, and unhealthy drinks are causing obesity and giving rise to many diseases in populations all across the world. 
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Have a look at the Live version here.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+#### Technologies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Installation
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### `Step 1` - Clone the repo
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+$ git clone https://github.com/roheat/indorse-healthy.git
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### `Step 2` - cd in the repo
 
-## Learn More
+```bash
+$ cd indorse-healthy
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### `Step 3` - Install dependencies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+$ npm install
+```
 
-### Code Splitting
+#### `Step 4` - Run application
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+```bash
+$ npm start
+```
 
-### Analyzing the Bundle Size
+In browser, open [http://localhost:3000](http://localhost:3000)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+---
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+MIT © [roheat](https://github.com/roheat)
 
-### Advanced Configuration
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## Info
 
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- Website - [roheat.com](https://roheat.com)
+- Twitter - [@roheatdotcom](https://twitter.com/roheatdotcom)
+- LinkedIn - [Rohith Srivathsav](https://www.linkedin.com/in/rohith-srivathsav/)
