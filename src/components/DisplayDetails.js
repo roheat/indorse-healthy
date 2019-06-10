@@ -7,6 +7,7 @@ const DisplayDetails = (props) => {
 		{
 			props.item ?
 			<div className="details_wrapper">
+				<img alt="item_image" src={`/images/${props.item.name}.jpg`} />
 				<h2>{props.item.name}</h2>
 				<h3>Ingredients:</h3>
 				<ul>{props.item.ingredients.map((ingredient, i) => <li key={i}>{ingredient}</li>)}</ul>
