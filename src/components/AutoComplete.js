@@ -2,33 +2,6 @@ import React from 'react';
 
 class AutoComplete extends React.Component {
 	state = {
-		items: [
-			{
-				"name": "Burger",
-				"ingredients": ["Bread", "Patty", "Cheese Slice"],
-				"calories": "200"
-			},
-			{
-				"name": "Pizza",
-				"ingredients": ["Bread", "Cheese", "Veggies"],
-				"calories": "400"
-			},
-			{
-				"name": "Pasta",
-				"ingredients": ["Raw Pasta", "Sauce", "Veggies"],
-				"calories": "300"
-			},
-			{
-				"name": "Fries",
-				"ingredients": ["Potato", "Cooking Oil"],
-				"calories": "100"
-			},
-			{
-				"name": "Coke",
-				"ingredients": ["Water", "Coke recipe"],
-				"calories": "50"
-			}
-		],
 		suggestions: [],
 		text: '',
 		itemNames: []
@@ -36,7 +9,7 @@ class AutoComplete extends React.Component {
 
 	componentDidMount() {
 		let itemNames = [];
-		this.state.items.map(item => itemNames.push(item.name));
+		this.props.items.map(item => itemNames.push(item.name));
 		this.setState({ itemNames });
 	}
 
@@ -47,11 +20,14 @@ class AutoComplete extends React.Component {
 			const regex = new RegExp(`${value}`, 'i');
 			suggestions = this.state.itemNames.sort().filter(v => regex.test(v));
 		}
-
+		this.props.getSelectedItem(null);
 		this.setState({ suggestions, text: value });
 	}
 
 	onSuggestionSelect(value) {
+		const selectedItem = this.getDetails(value, this.props.items);
+		this.props.getSelectedItem(selectedItem);
+
 		this.setState({ text: value, suggestions: [] });
 	}
 
