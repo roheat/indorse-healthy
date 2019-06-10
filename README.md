@@ -1,6 +1,6 @@
 # [Healthy Living, healthy eating](http://opposite-wine.surge.sh/)
 
-![Healthy-Living](screenshots/example.jpg)
+![Healthy-Living](screenshots/example.JPG)
 
 > A front end app created using React to search and display details about food items.
 
