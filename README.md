@@ -1,6 +1,6 @@
-# [Healthy Living, healthy eating]
+# [Healthy Living, healthy eating](http://opposite-wine.surge.sh/)
 
-![Healthy-Living](screenshots/main.jpg)
+![Healthy-Living](screenshots/example.jpg)
 
 > A front end app created using React to search and display details about food items.
 
@@ -19,7 +19,7 @@
 
 This assignment is catered towards invoking healthy habits in this world where rising levels of junk food, fast food, and unhealthy drinks are causing obesity and giving rise to many diseases in populations all across the world. 
 
-Have a look at the Live version here.
+Have a look at the Live version [here](http://opposite-wine.surge.sh/).
 
 #### Technologies
 
